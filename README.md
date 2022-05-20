@@ -105,11 +105,11 @@ Elements in the resulting array are set to NULL in case of modulus or division b
 $myArray1 = [1, 2, 3, 4];
 $myArray2 = [5, 6, 7, 8];
 
-$result = Numa\operate($myArray1, "+", 1); 		//[2, 3, 4, 5]
-$result = Numa\operate($myArray1, "**", 2); 		//[1, 4, 9, 16]
-$result = Numa\operate($myArray2, "-", $myArray1); 	//[4, 4, 4, 4]
-$result = Numa\operate($myArray2, "**", $myArray1);     //[5, 36, 343, 4096]
-$result = Numa\operate($myArray2, "%", $myArray1); 	//[0, 0, 1, 0]
+$result = \Numa\operate($myArray1, "+", 1); 		//[2, 3, 4, 5]
+$result = \Numa\operate($myArray1, "**", 2); 		//[1, 4, 9, 16]
+$result = \Numa\operate($myArray2, "-", $myArray1); 	//[4, 4, 4, 4]
+$result = \Numa\operate($myArray2, "**", $myArray1);     //[5, 36, 343, 4096]
+$result = \Numa\operate($myArray2, "%", $myArray1); 	//[0, 0, 1, 0]
 ```
 
 ### 6. `precision($array1, $precision)`
