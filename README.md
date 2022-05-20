@@ -42,7 +42,7 @@ $myArray = \Numa\gen_1(5, 10, 2); 	//[10, 12, 14, 16, 18]
 ```
 
 Be aware of how [floating point math works](https://stackoverflow.com/questions/588004/is-floating-point-math-broken).  
-For example, the output of the following code block might come as a surprise:
+For example, the output of the following might come as a surprise:
 
 ```php
 $myArray1 = \Numa\gen_1(5, 0, 0.1); //[0, 0.1, 0.2, 0.30000000000000004, 0.4]
@@ -53,7 +53,7 @@ To deal with this, see the `precision()` and `round()` functions below.
 
 ### 2. `gen_2($start, $end, $step = 1)`
 
-Returns an array from `$start`, at `$step` increments, up to `$end`.
+Returns an array with elements going up from `$start`,  to `$end`, at `$step` increments,.
 
 ```php
 $myArray = \Numa\gen_2(0, 5); 		//[0, 1, 2, 3, 4]
@@ -97,7 +97,8 @@ Operator | Meaning
 `%`      | Modulus
 `**`     | Exponentiation
 
-Values are cast to integers for modulo operations. Elements in the resulting array are set to NULL in case of modulus or division by 0.
+Values are cast to integers for modulo operations.  
+Elements in the resulting array are set to NULL in case of modulus or division by 0.
 
 
 ```php
