@@ -3,8 +3,6 @@
 Current version: `0.1` | `2022-05-20`  
 License: `AGPLv3`
 
-Note: Numa has been updated with a bunch of new functions, but they haven't been documented below yet. Take a look at `Numa.php`, they're pretty self explanatory.
-
 ## What is this? 
 
 Numa (pronounced "new ma") contains a bunch of handy PHP functions for dealing with **num**erical **a**rrays. 
@@ -17,6 +15,8 @@ Arrays returned by Numa always have continuous keys, starting from 0.
 
 
 ## Usage 
+
+Note: Numa has been updated with a bunch of new functions, but they haven't been documented below yet. Take a look at `Numa.php`, they're pretty self explanatory.
 
 All functions are included in the namespace `Numa`. They each return a processed array.
 
