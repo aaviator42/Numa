@@ -7,9 +7,9 @@ License: `AGPLv3`
 
 Numa (pronounced "new ma") contains a bunch of handy PHP functions for dealing with **num**erical **a**rrays. 
 
-Numa expects all arrays to be numerical, with continuous keys starting from 0.
+Numa's functions expect all arrays to be numerical, with continuous keys starting from 0.
 
-Arrays returned by Numa always have continuous keys, starting from 0.
+Arrays returned by Numa will always have continuous keys, starting from 0.
 
 > Be warned that currently Numa is very much a work in progress, and future versions may introduce breaking changes.
 
